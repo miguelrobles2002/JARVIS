@@ -100,7 +100,7 @@ mi campo de pruebas para IA, automatización, integración de sistemas y segurid
 
 <div align="center">
 
-`// Miguel Robles · Técnico Superior ASIR · Huelva · 2026`
+`// Miguel Robles · Técnico Superior ASIR · 2026`
 
 [Portfolio ↗](https://robles-it.netlify.app) · [LinkedIn ↗](https://www.linkedin.com/in/miguel-robles-medina-8a0315389) · [GitHub ↗](https://github.com/miguelrobles2002)
 

@@ -56,7 +56,7 @@ a diario. Todo el procesamiento de IA es local — sin depender de servicios en 
 
 <div align="center">
 
-![Mapa completo de JARVIS](jarvis_mapa.png)
+![Mapa completo de JARVIS](jarvis-mapa.png)
 
 </div>
 

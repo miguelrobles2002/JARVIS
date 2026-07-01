@@ -17,6 +17,7 @@
 ![Ollama](https://img.shields.io/badge/Ollama-0e1116?style=flat-square&labelColor=0e1116&color=4fd1c5)
 ![Telegram](https://img.shields.io/badge/Telegram_API-0e1116?style=flat-square&labelColor=0e1116&color=4fd1c5)
 ![Whisper](https://img.shields.io/badge/Whisper-0e1116?style=flat-square&labelColor=0e1116&color=f0a830)
+[![Ver en YouTube](https://img.shields.io/badge/▶_VER_DEMO_EN_YOUTUBE-0e1116?style=for-the-badge&labelColor=0e1116&color=e5534b)](https://youtu.be/T3hwXxf3abs)
 
 </div>
 

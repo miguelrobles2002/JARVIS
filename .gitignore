@@ -1,0 +1,64 @@
+# ============================================
+#  JARVIS - Archivos que NUNCA se suben a GitHub
+# ============================================
+
+# --- CONFIGURACIÓN Y SECRETOS DEL USUARIO (¡MUY IMPORTANTE!) ---
+config.json              # datos del usuario: token de Telegram, chat ID, etc.
+token.json               # credenciales de Google (Gmail/Calendar)
+credentials.json         # credenciales de Google Cloud
+*.token
+.env
+
+# --- DATOS PERSONALES GENERADOS AL USAR JARVIS ---
+memoria.json             # lo que JARVIS recuerda del usuario
+notas.txt                # notas del usuario
+ultimo_resultado.txt
+temp_audio.wav
+
+# --- PERFIL DE WHATSAPP (contiene tu sesión iniciada) ---
+wa_profile/
+chrome-win64/
+chromedriver-win64/
+
+# --- MODELOS Y BINARIOS PESADOS (se descargan aparte) ---
+piper/                   # motor de voz Piper
+*.onnx                   # modelos de voz
+*.safetensors            # modelos de IA
+*.ckpt
+*.bin
+*.pt
+*.pth
+
+# --- ICONO E IMÁGENES GENERADAS ---
+jarvis.ico
+*.png
+*.jpg
+*.jpeg
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- EDITORES ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- LOGS Y TEMPORALES ---
+*.log
+temp/
+tmp/
+*.tmp

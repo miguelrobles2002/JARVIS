@@ -1,0 +1,58 @@
+# ============================================
+#  JARVIS - Dependencias de Python
+#  Instala todo con:  pip install -r requirements.txt
+# ============================================
+
+# --- IA y voz ---
+openai-whisper          # reconocimiento de voz (voz -> texto)
+torch                   # motor de IA (para Whisper y generación de imágenes)
+sounddevice             # captura de audio del micrófono
+numpy                   # cálculo numérico
+
+# --- Generación y análisis de imágenes (opcional, solo si activas imágenes) ---
+diffusers               # generación de imágenes con IA (SDXL)
+transformers            # modelos de IA (requerido por diffusers)
+accelerate              # acelera los modelos de imagen
+Pillow                  # manejo de imágenes
+opencv-python           # webcam
+
+# --- Sistema y control del PC (Windows) ---
+psutil                  # información de procesos, CPU, RAM
+pywin32                 # integración con Windows (win32gui, win32com, wmi...)
+pycaw                   # control del volumen
+comtypes                # requerido por pycaw
+pyautogui               # control de ratón/teclado
+pywinauto               # automatización de ventanas (Phone Link, notificaciones)
+keyboard                # detección de la tecla de activación (F9)
+send2trash              # enviar archivos a la papelera
+
+# --- Documentos ---
+pypdf                   # leer PDFs
+python-docx             # leer Word (.docx)
+openpyxl                # leer Excel (.xlsx)
+python-pptx             # leer PowerPoint (.pptx)
+
+# --- Web y búsquedas ---
+requests                # peticiones HTTP (Ollama, APIs)
+ddgs                    # búsquedas en DuckDuckGo
+
+# --- Google (opcional, solo si activas Gmail/Calendar) ---
+google-auth
+google-auth-oauthlib
+google-api-python-client
+
+# --- WhatsApp (opcional) ---
+selenium                # automatización de WhatsApp Web
+
+# --- Matemáticas ---
+sympy                   # resolver ecuaciones, derivadas, integrales
+
+# ============================================
+#  NOTA: además de estas librerías necesitas:
+#   - Ollama instalado (https://ollama.com) con los modelos:
+#       ollama pull qwen3:8b
+#       ollama pull qwen2.5-coder:7b
+#       ollama pull llava           (solo si usas análisis de imágenes)
+#   - Piper TTS (voz), en una carpeta "piper" junto a jarvis.py (opcional)
+#   - LibreHardwareMonitor para temperaturas (opcional)
+# ============================================

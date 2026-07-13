@@ -2707,7 +2707,7 @@ def ejecutar_accion(accion, log_fn):
             return _mc.cerrar_servidor()
         else:
             log_fn("Haciendo backup del mundo...", "accion")
-            return _mc.hacer_backup(log_fn)
+            return _mc.hacer_backup(log_fn=log_fn)
 
     elif tipo == "listar_eventos":
         if not CAL_OK:
